@@ -1,0 +1,28 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+#nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  background-color: #1876d1;
+}
+.checkout {
+  background-color: navy;
+  color: white;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.my-store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.btn {
+  cursor: pointer;
+}

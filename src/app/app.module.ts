@@ -3,22 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppTopBarComponent } from './app-top-bar/app-top-bar.component';
-import { AppProductListComponent } from './app-product-list/app-product-list.component';
-import { AppProductAlertsComponent } from './app-product-alerts/app-product-alerts.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppTopBarComponent,
-    AppProductListComponent,
-    AppProductAlertsComponent
+    TopBarComponent,
+    ProductAlertsComponent,
+    ProductListComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
