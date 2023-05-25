@@ -16,4 +16,8 @@ export class ProductListComponent implements OnInit {
   share() {
     alert('shared!');
   }
+
+  onNotify() {
+    alert('You will be notified when the product goes on sale');
+  }
 }
