@@ -4,6 +4,10 @@
     <h3>{{ product.name }}</h3>
     <h4>{{ product.price | currency }}</h4>
     <p>{{ product.description }}</p>
+    <button type="button" class="link__btn" (click)="addToCart(product)">
+      Buy
+    </button>
   </div>
 </div>
-<a routerLink="/"><button class="btn">Go back</button></a>
+
+<a routerLink="/"><button class="link__btn">Go back</button></a>
